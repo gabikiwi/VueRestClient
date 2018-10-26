@@ -6,7 +6,6 @@
     <main>
         <h2>Test URL</h2>
         <div>
-           <p>{{existentialQuestion}}</p>
            <input v-model="testUrl"/>
            <button id="btn" class="" v-on:click="getInternalResults">Get Internal Results</button>
         </div>
