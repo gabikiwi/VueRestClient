@@ -19,13 +19,11 @@
         </div>
 
         <div class="row">
-          <div v-for="internalResult in internalResults" :key="internalResult.id">
           <div class="col-md-4 cards">
             <div>
               <h3>{{ internalResults }}</h3>
             </div>
           </div>
-        </div>
         </div>
 
      <div class="wrapper">
